@@ -186,7 +186,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <Router basename="/english-adventure-web">
+    <Router>
       <AppContent />
     </Router>
   );

@@ -41,5 +41,8 @@
   ],
   "author": "AI团队开发",
   "license": "MIT",
-  "homepage": "https://your-username.github.io/english-adventure-web"
+  "homepage": ".",
+  "engines": {
+    "node": ">=16"
+  }
 }
