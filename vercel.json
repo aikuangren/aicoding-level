@@ -1,22 +1,16 @@
 {
   "version": 2,
   "name": "english-adventure-web",
-  "builds": [
-    {
-      "src": "web/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "web/dist"
-      }
-    }
-  ],
+  "buildCommand": "cd web && npm install && npm run build",
+  "outputDirectory": "web/dist",
+  "installCommand": "echo 'Skip root install'",
   "routes": [
     {
       "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/web/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }
