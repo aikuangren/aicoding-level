@@ -22,7 +22,8 @@
       "Bash(curl:*)",
       "Bash(git commit:*)",
       "Bash(grep:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(mv:*)"
     ],
     "deny": [],
     "ask": []
