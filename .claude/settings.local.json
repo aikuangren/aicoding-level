@@ -10,7 +10,19 @@
       "Bash(git config:*)",
       "Bash(git pull:*)",
       "Bash(git add:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run build:*)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:aicoding-level-vu5e.vercel.app)",
+      "Bash(curl:*)",
+      "Bash(git commit:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": []
