@@ -1,16 +1,17 @@
 {
   "name": "english-adventure-vercel",
   "version": "1.0.0",
-  "description": "英语闯关大冒险 - Vercel部署版本",
-  "main": "index.html",
+  "description": "英语闯关大冒险 - Vercel静态部署",
+  "main": "public/index.html",
   "scripts": {
-    "start": "python3 -m http.server 3000",
-    "build": "echo 'Static files ready'"
+    "build": "echo 'Static build complete'",
+    "dev": "echo 'Development mode'",
+    "start": "echo 'Server start'"
   },
-  "keywords": ["english-learning", "kids-education", "vercel"],
+  "keywords": ["english-learning", "kids-education", "static-site"],
   "author": "AI团队开发",
   "license": "MIT",
-  "engines": {
-    "node": ">=16"
+  "staticFiles": {
+    "public": true
   }
 }
