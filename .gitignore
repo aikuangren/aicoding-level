@@ -60,6 +60,10 @@ web/node_modules/
 web/dist/
 web/.cache/
 
+# Root build files (keep root level build files for Vercel)
+!bundle.*.js
+!index.html
+
 # Environment variables
 .env
 .env.local
