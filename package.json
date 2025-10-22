@@ -10,6 +10,7 @@
     "start": "react-native start",
     "test": "jest",
     "typecheck": "tsc --noEmit",
+    "build": "cd web && npm install && npm run build",
     "build:android": "cd android && ./gradlew assembleRelease",
     "build:ios": "cd ios && xcodebuild -workspace EnglishAdventure.xcworkspace -scheme EnglishAdventure -configuration Release"
   },
